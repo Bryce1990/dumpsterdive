@@ -9,8 +9,8 @@ input_file2 = input("Input second file name: ")
 output_file = input("Enter output file name: ")
 
 # Create file readers
-fileOne = open('C:/Users/Bryce/Desktop/python/HD99 Live + IVR Combined 20160906.csv')
-fileTwo = open('C:/Users/Bryce/Desktop/python/HD111 Live + IVR Combined Round 2 20160906 (1).csv')
+fileOne = open(".csv")
+fileTwo = open(".csv")
 fileOneReader = csv.reader(fileOne)
 fileTwoReader = csv.reader(fileTwo)
 
